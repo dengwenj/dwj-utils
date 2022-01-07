@@ -1,0 +1,21 @@
+{
+  "name": "dwj-utils",
+  "version": "1.0.0",
+  "description": "a utils package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dengwj",
+  "license": "MIT",
+  "keywords": [
+    "dwj",
+    "utils",
+    "dengwj"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dengwenj"
+  },
+  "homepage": "https://github.com/dengwenj"
+}
