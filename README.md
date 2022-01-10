@@ -8,8 +8,8 @@
 ```
 npm i dwj-utils
 ```
-**example:**
-```
+### example:
+``` js
 const dwjUtils = require('dwj-utils')
 
 dwjUtils.deepClone(obj)
@@ -18,5 +18,6 @@ dwjUtils.debounce(function (){
 }, 300, true)
 ```
 ### 目前支持:
-* debounce(防抖)、throttle(节流)
-* deepClone(深拷贝)、shallowClone(浅拷贝)、isObject(是否为引用类型)
+* debounce(func)(防抖)、throttle(func)(节流)
+* deepClone(func)(深拷贝)、shallowClone(func)(浅拷贝)、isObject(func)(是否为引用类型)
+* Storage(class)(本地存储)

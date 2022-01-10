@@ -8,7 +8,8 @@
   <title>Document</title>
 
 </head>
-<script src="./src/utils/debounce-throttle.js"></script>
+<!-- <script src="./src/utils/debounce-throttle.js"></script> -->
+<script src="../src/utils/storage.js"></script>
 
 <body>
 
@@ -16,11 +17,6 @@
 
 
   <script>
-    const inputEl = document.querySelector('input')
-
-    inputEl.oninput = throttle(function (e) {
-      console.log(this, e);
-    }, 1000, true)
   </script>
 </body>
 
