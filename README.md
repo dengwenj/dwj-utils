@@ -18,6 +18,6 @@ dwjUtils.debounce(function (){
 }, 300, true)
 ```
 ## 目前支持:
-* debounce（func）（防抖）、throttle（func）（节流）
-* deepClone（func）（深拷贝）、shallowClone（func）（浅拷贝）、isObject（func）（是否为引用类型）
-* Storage（class）（本地存储）
+* debounce（func 防抖)、throttle（func 节流）
+* deepClone（func 深拷贝）、shallowClone（func 浅拷贝）、isObject（func 是否为引用类型）
+* Storage（class 本地存储）
