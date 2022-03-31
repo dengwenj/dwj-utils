@@ -13,9 +13,16 @@ npm i dwj-utils
 const dwjUtils = require('dwj-utils')
 
 dwjUtils.deepClone(obj)
-dwjUtils.debounce(function (){
-  console.log('我是防抖')
-}, 300, true)
+```
+## browser:
+```js
+// test 文件夹下的 index.html
+<script src="../build/dwj_utils.js"></script>
+
+<script>
+  console.log(dwjUtils)
+  console.log(dwjUtils.deepClone(obj))
+</script>
 ```
 ## 目前支持:
 * debounce（func 防抖)、throttle（func 节流）
