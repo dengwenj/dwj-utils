@@ -1,7 +1,10 @@
 {
   "name": "dwj-utils",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "description": "a utils package",
+  "bin": {
+    "dwj001": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "dwjUtils": "node ./index.js",
